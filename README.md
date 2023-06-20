@@ -56,16 +56,18 @@ I did the functional connectivity using seed-based analysis. I mainly focus on s
 
 ### Tools I learned during this project
 
- * **Python** Nilearn package is a useful tool to do functional connectivity.
+ * **Python** Nilearn package is a useful tool for functional connectivity.
  * **Jupytor notebook** I leanred how to utilize this tool to function as powerpoint.
- * **Github workflow-** I learned how to use VScode to pull things into my repository.
+ * **Github workflow-** I learned how to use VSCode to pull things into my repository.
 
 ### Results
 
 #### Deliverable 1: report correlation matrix
 
-The final result shows the significant correlation (p<.05) bwteen 
+The final result shows the significant correlation (p<.05) between 6 brain regions. 
+As can be seen in the figure, compared to the healthy control, patients with fibromyalgia exhibit lower connectivity within these regions. Connectivity between right Insula and Postcnetral lobe as an example. The later step is to interpret these results and use stricker threshold to do comparisons (eg. Bofferini correction). 
 
 ## Conclusion and acknowledgement
-
+This is a tight project that should be done within a short period of time. 
+Thank you very much for all the TAs, especially Amenda and Yu-Shiang Su, they helped me a lot since I'm still a beginner to python.
 
