@@ -10,16 +10,13 @@ names: [Chia-Yu Cheng]
 # Your project GitHub repository URL
 github_repo: https://github.com/RubyCheng0419/Ruby_Cheng_project
 
-# If you are working on a project that has website, indicate the full url including "https://" below or leave it empty.
-website:
-
 # List +- 4 keywords that best describe your project within []. Note that the project summary also involves a number of key words. Those are listed on top of the [github repository](https://github.com/PSY6983-2021/project_template), click `manage topics`.
 # Please only lowercase letters
 tags: [Resting-state functional connectivity, fibromyalgia, chronic pain, pain matrix]
 
 # Summarize your project in < ~75 words. This description will appear at the top of your page and on the list page with other projects..
 
-summary: "The aim of the study is to fully understand the mechanisms involved in FM pathology. To be more specific, we want to know the difference in endogenous pain modulation between FM patients and healthy control. We mainly focus on 6 brain regions included in pain matrix and investigates its connectivities."
+Summary: "The aim of the study is to fully understand the mechanisms involved in FM pathology. To be more specific, we want to know the difference in endogenous pain modulation between FM patients and healthy control. We mainly focus on 6 brain regions included in pain matrix and investigates its connectivities."
 
 # If you want to add a cover image (listpage and image in the right), add it to your directory and indicate the name
 # below with the extension.
@@ -31,27 +28,29 @@ image: ""
 
 ### Background
 
-Inspired by the [Recurse Centre](https://www.recurse.com/) initiative (formally known as the "hacker school"), Brainhack School was established in 2018 with the mission to train students from multidisciplinary backgrounds to a panoply of reproducible tools for neural data science, using a project-based approach. Following an initial 3-weeks long pilot, a 4th week was added with an intensive bootcamp, so that students could choose what tools to learn more deeply in their projects. As the course became integrated in standard curriculum at different universities, the formula seemed to be working. In order to streamline the different stages of the project, some standard template and milestones needed to be incorporated in a github-based workflow. The "project template" project (which is also our first BHS meta-project) aims at establishing such a standardized template. You can check the following [video](https://youtu.be/PTYs_JFKsHI) where Pierre Bellec gives an overview of the Brainhack school.
+As a graduate student, I was studying task-based fMRI analysis, digging into the deficiency of cognitive abilities in chronic pain patients. However, chronic pain patients not only exhibit cognitive deficiency, their brain also demonstrate impaired functional connectivity patterns. Thus, I decided to utilize the knowledge of what I've learned in Brainhack School and compared the difference of functional connecitiy bwteen chronic pain patients and healthy control. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PTYs_JFKsHI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Tools
 
-The "project template" project will rely on the following technologies:
+The project will rely on the following technologies:
+ * fmri prep, to preprocessing the frmi data.
  * Markdown, to structure the text.
- * The Hugo website framework which is used by the BHS website. This makes it possible to easily add the markdown project description to the website.
+ * Python, with nilearn packages to analyze functional connectivity.
+ * Jupyter notebook, to present the result. 
  * Adding the project to the website relies on github, through pull requests.
 
 ### Data
+The OpenNeuro website () which provided the sample data in BIDS forms.
 
 Ultimately, the project template will be used by all BHS participants. Data on the different projects will be aggregareted on the [following page](https://psy6983.brainhackmtl.org/project). This will serve as an additional example gallery in the years to come for future brainhack school students. Many reports from [BHS 2020](https://github.com/brainhack-school2020) already used this template.
 
 ### Deliverables
 
 At the end of this project, we will have:
- - The current markdown document, completed and revised.
- - A gallery of the student projects at Brainhack 2020.
- - Instructions on the website about how to submit a pull request to the [brainhack school website](https://github.com/PSY6983-2021) in order to add the project description to the website.
+ - The current jupyter document, completed and revised.
+ - A github website about the project.
 
 ## Results
 
