@@ -33,11 +33,11 @@ As a graduate student, I was studying task-based fMRI analysis, digging into the
 ### Tools
 
 The project will rely on the following technologies:
- * fmri prep, to preprocessing the frmi data.
+ * [fmri prep](https://fmriprep.org/en/stable/), to preprocessing the frmi data.
  * Markdown, to structure the text.
  * Python, with nilearn packages to analyze functional connectivity.
  * Jupyter notebook, to present the result. 
- * Adding the project to the website relies on github, through pull requests.
+ * Adding the project to the website relies on GitHub, through pull requests.
 
 ### Data
 The [OpenNeuro website](https://openneuro.org/datasets/ds004144/versions/1.0.2) which provided the sample data in BIDS forms.
@@ -45,27 +45,27 @@ The [OpenNeuro website](https://openneuro.org/datasets/ds004144/versions/1.0.2) 
 ### Deliverables
 
 At the end of this project, we will have:
- - The current jupyter document, completed and revised.
+ - The current Jupyter document, completed and revised.
  - A github website about the project.
 
 ## Results
 
 ### Progress overview
 
-I did the functional connectivity using seed-based analysis. I mainly focus on six regions in "pain matrix". The output would be a correlation matrix indicating the relationships between these regions. 
+I did the functional connectivity using seed-based analysis. I mainly focus on six regions in the "pain matrix". The output would be a correlation matrix indicating the relationships between these regions. 
 
 ### Tools I learned during this project
 
  * **Python** Nilearn package is a useful tool for functional connectivity.
- * **Jupytor notebook** I leanred how to utilize this tool to function as powerpoint.
+ * **Jupytor notebook** I leanred how to utilize this tool to function as a PowerPoint.
  * **Github workflow-** I learned how to use VSCode to pull things into my repository.
 
 ### Results
 
 #### Deliverable 1: report correlation matrix
 
-The final result shows the significant correlation (p<.05) between 6 brain regions. 
-As can be seen in the figure, compared to the healthy control, patients with fibromyalgia exhibit lower connectivity within these regions. Connectivity between right Insula and Postcnetral lobe as an example. The later step is to interpret these results and use stricker threshold to do comparisons (eg. Bofferini correction). 
+The final result shows a significant correlation (p<.05) between six brain regions. 
+As can be seen in the figure, compared to the healthy control, patients with fibromyalgia exhibit lower connectivity within these regions. Connectivity between the right insula and postcentral lobe is an example. The later step is to interpret these results and use striker threshold to do comparisons (eg. Bofferini correction). 
 
 ## Conclusion and acknowledgement
 This is a tight project that should be done within a short period of time. 
