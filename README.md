@@ -69,5 +69,5 @@ As can be seen in the figure, compared to the healthy control, patients with fib
 
 ## Conclusion and acknowledgement
 This is a tight project that should be done within a short period of time. 
-Thank you very much for all the TAs, especially Amenda and Yu-Shiang Su, they helped me a lot since I'm still a beginner to python.
+Thank you very much for all the TAs, especially Amanda and Yu-Shiang Su, they helped me a lot since I'm still a beginner to python.
 
