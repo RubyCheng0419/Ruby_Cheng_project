@@ -44,7 +44,7 @@ The project will rely on the following technologies:
 ### Data
 The [OpenNeuro website] (https://openneuro.org/datasets/ds004144/versions/1.0.2) which provided the sample data in BIDS forms.
 
-Ultimately, the project template will be used by all BHS participants. Data on the different projects will be aggregareted on the [following page](https://psy6983.brainhackmtl.org/project). This will serve as an additional example gallery in the years to come for future brainhack school students. Many reports from [BHS 2020](https://github.com/brainhack-school2020) already used this template.
+Ultimately, the project template will be used by all BHS participants. Data on the different projects will be aggregareted on the (https://psy6983.brainhackmtl.org/project). This will serve as an additional example gallery in the years to come for future brainhack school students. Many reports from [BHS 2020](https://github.com/brainhack-school2020) already used this template.
 
 ### Deliverables
 
