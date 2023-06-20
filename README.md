@@ -30,8 +30,6 @@ image: ""
 
 As a graduate student, I was studying task-based fMRI analysis, digging into the deficiency of cognitive abilities in chronic pain patients. However, chronic pain patients not only exhibit cognitive deficiency, their brain also demonstrate impaired functional connectivity patterns. Thus, I decided to utilize the knowledge of what I've learned in Brainhack School and compared the difference of functional connecitiy bwteen chronic pain patients and healthy control. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/PTYs_JFKsHI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ### Tools
 
 The project will rely on the following technologies:
@@ -44,8 +42,6 @@ The project will rely on the following technologies:
 ### Data
 The [OpenNeuro website](https://openneuro.org/datasets/ds004144/versions/1.0.2) which provided the sample data in BIDS forms.
 
-Ultimately, the project template will be used by all BHS participants. Data on the different projects will be aggregareted on the (https://psy6983.brainhackmtl.org/project). This will serve as an additional example gallery in the years to come for future brainhack school students. Many reports from [BHS 2020](https://github.com/brainhack-school2020) already used this template.
-
 ### Deliverables
 
 At the end of this project, we will have:
@@ -56,47 +52,20 @@ At the end of this project, we will have:
 
 ### Progress overview
 
-The project was swiftly initiated by P Bellec, based on the existing template created in 2019 by Tristan Glatard and improved by different students. It was really not that hard. Community feedback is expected to lead to rapid further improvements of this first version.
+I did the functional connectivity using seed-based analysis. I mainly focus on six regions in "pain matrix". The output would be a correlation matrix indicating the relationships between these regions. 
 
 ### Tools I learned during this project
 
- * **Meta-project** P Bellec learned how to do a meta project for the first time, which is developping a framework while using it at the same time. It felt really weird, but somehow quite fun as well.
- * **Github workflow-** The successful use of this template approach will demonstrate that it is possible to incorporate dozens of students presentation on a website collaboratively over a few weeks.
- * **Project content** Through the project reports generated using the template, it is possible to learn about what exactly the brainhack school students are working on.
+ * **Python** Nilearn package is a useful tool to do functional connectivity.
+ * **Jupytor notebook** I leanred how to utilize this tool to function as powerpoint.
+ * **Github workflow-** I learned how to use VScode to pull things into my repository.
 
 ### Results
 
-#### Deliverable 1: report template
+#### Deliverable 1: report correlation matrix
 
-You are currently reading the report template! I will let you judge whether it is useful or not. If you think there is something that could be improved, please do not hesitate to open an issue [here](https://github.com/PSY6983-2021/project_template/issues/) and let us know.
-
-#### Deliverable 2: project gallery
-
-You can check out the [2020 BrainHack School project gallery](https://psy6983.brainhackmtl.org/project/)
-
-##### ECG pupilometry pipeline by Marce Kauffmann
-
-The repository of this project can be found [here](https://github.com/mtl-brainhack-school-2019/ecg_pupillometry_pipeline_kaufmann). The objective was to create a processing pipeline for ECG and pupillometry data. The motivation behind this task is that Marcel's lab (MIST Lab @ Polytechnique Montreal) was conducting a Human-Robot-Interaction user study. The repo features:
- * a [video introduction](http://www.youtube.com/watch/8ZVCNeX42_A) to the project.
- * a presentation [made in a jupyter notebook](https://github.com/mtl-brainhack-school-2019/ecg_pupillometry_pipeline_kaufmann/blob/master/BrainHackPresentation.ipynb) on the results of the project.
- * Notebooks for all analyses.
- * Detailed requirements files, making it easy for others to replicate the environment of the notebook.
- * An overview of the results in the markdown document.
-
-##### Other projects
-Here are other good examples of repositories:
-- [Learning to manipulate biosignals with python](https://github.com/mtl-brainhack-school-2019/franclespinas-biosignals) by François Lespinasse
-- [Run multivariate anaylysis to relate behavioral and electropyhysiological data](https://github.com/mtl-brainhack-school-2019/PLS_PV_Behaviour)
-- [PET pipeline automation and structural MRI exploration](https://github.com/mtl-brainhack-school-2019/rwickens-sMRI-PET) by Rebekah Wickens
-- [Working with PSG [EEG] data from Parkinson's patients](https://github.com/mtl-brainhack-school-2019/Soraya-sleep-data-in-PD-patients) by Cryomatrix
-- [Exploring Brain Functional Activation in Adolescents Who Attempted Suicide](https://github.com/mtl-brainhack-school-2019/Anthony-Gifuni-repo) by Anthony Gifuni
-
-#### Deliverable 3: Instructions
-
- To be made available soon.
+The final result shows the significant correlation (p<.05) bwteen 
 
 ## Conclusion and acknowledgement
 
-The BHS team hope you will find this template helpful in documenting your project. Developping this template was a group effort, and benefitted from the feedback and ideas of all BHS students over the years.
 
-You can also make submit your project to neurolibre https://neurolibre.org/. It is a preprint server for interactive data analyses. It is tailored for publishing interactive neuroscience notebooks that can seamlessly integrate data, text, code and figures.The submission instructions can be found here https://docs.neurolibre.org/en/latest/index.html and the jupyter book docs there https://jupyterbook.org/intro.html.
